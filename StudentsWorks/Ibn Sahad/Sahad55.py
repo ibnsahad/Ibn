@@ -11,7 +11,7 @@ while True :
     elif U_in == "stop" :
         if not started:
             print("Car is already stoped !")
-        else:
+        else: print("car is go")
             print("Car is stoped")
             started = False
     elif U_in == "help" :
